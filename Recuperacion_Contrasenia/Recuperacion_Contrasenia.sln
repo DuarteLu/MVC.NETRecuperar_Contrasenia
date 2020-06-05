@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recuperacion_Contrasenia", "Recuperacion_Contrasenia\Recuperacion_Contrasenia.csproj", "{AB8CBB71-883C-42E5-841B-DE01373E033F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB8CBB71-883C-42E5-841B-DE01373E033F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8CBB71-883C-42E5-841B-DE01373E033F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8CBB71-883C-42E5-841B-DE01373E033F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8CBB71-883C-42E5-841B-DE01373E033F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BA0C329-6E56-475D-BCED-A079B313F4DA}
+	EndGlobalSection
+EndGlobal

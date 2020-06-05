@@ -1,0 +1,17 @@
+﻿@model Recuperacion_Contrasenia.ViewModels.RecuperarViewModel
+@{
+    ViewBag.Title = "EmpezarRecuperacion";
+}
+
+<h2>StartRecovery</h2>
+
+<form action=@Url.Content("~/Acceso/EmpezarRecuperacion") method="post">
+    <div class="row">
+        <div class="form-group">
+            @Html.LabelFor(m => m.Email)
+            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+        </div>
+        <input type="submit" value="Recuperar" class="btn btn-default" />
+    </div>
+</form>
